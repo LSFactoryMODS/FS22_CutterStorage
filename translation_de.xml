@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<translationContributors>Bjoern_AkA_FactoryMODS</translationContributors>
+	<texts>
+
+		<text name="bigDisplay_empty" text="Leer" />
+		<text name="bigDisplay_attacher" text="Fach" />
+	    <text name="action_openPanel" text="Control Panel öffnen" />
+	    <text name="action_closePanel" text="Control Panel schliessen" />
+
+
+<!-- Beschreibung der Schneidwerke -->
+
+		<!-- Fendt -->
+	    <text name="headerBearing_Fendt" text="Schneidwerkslager Fendt" />
+	    <text name="function_headerBearing_Fendt" text="Ein Lager für Schneidwerke der Firma Fendt.Eingelagert werden können die Schneidwerke Powerflow,Powerflow30FT und Dynaflex9255 " />
+        <!-- Massey Ferguson  -->
+	    <text name="headerBearing_MasseyFerguson" text="Schneidwerkslager Massey Ferguson" />
+	    <text name="function_headerBearing_MasseyFerguson" text="Ein Lager für Schneidwerke der Firma Massey Ferguson.Eingelagert werden können die Schneidwerke Powerflow,Powerflow30FT und Dynaflex9255 " />
+        <!-- Capello -->
+	    <text name="headerBearing_Capello" text="Schneidwerkslager Capello" />
+	    <text name="function_headerBearing_Capello" text="Ein Lager für Schneidwerke der Firma Capello.Eingelagert werden können die Schneidwerke Spartan610, Diamant8, Diamant12, Helianthus5700 und Helianthus12000 " />
+        <!-- Claas -->
+	    <text name="headerBearing_Claas" text="Schneidwerkslager Claas" />
+	    <text name="function_headerBearing_Claas" text="Ein Lager für Schneidwerke der Firma Claas.Eingelagert werden können die Schneidwerke DirectDisc500, ConvioFlex 1080, ConvioFlex 1380, Corio875FC, Corio1275C, Orbis750 und Orbis900 " />
+        <!-- NewHolland -->
+	    <text name="headerBearing_NewHolland" text="Schneidwerkslager NewHolland" />
+	    <text name="function_headerBearing_NewHolland" text="Ein Lager für Schneidwerke der Firma NewHolland.Eingelagert werden können die Schneidwerke CR980_830, SuperFlex25, Varifeed28, NewHolland_plus390, NewHolland_plus375, NewHolland_plus360 und NewHolland_plus345 " />
+        <!-- JohnDeere -->
+	    <text name="headerBearing_JohnDeere" text="Schneidwerkslager JohnDeere" />
+	    <text name="function_headerBearing_JohnDeere" text="Ein Lager für Schneidwerke der Firma JohnDeere.Eingelagert werden können die Schneidwerke Header608C, Header625X, HeaderC16F, HeaderHD45x und HeaderHD50F " />
+        <!-- Case IH -->
+	    <text name="headerBearing_Case_IH" text="Schneidwerkslager Case IH" />
+	    <text name="function_headerBearing_Case_IH" text="Ein Lager für Schneidwerke der Firma Case IH.Eingelagert werden können die Schneidwerke TerraFlex 3020, TerraFlex 3050_28, TerraFlex 3050_41, Draper 3162, Header 4408 und Header 4418N " />
+
+	    <text name="headerBearing_universal" text="Schneidwerkslager Universell" />
+	    <text name="function_headerBearing_universal" text="Ein Lager für alle standard Schneid und Häckselwerke.Eingelagert werden können alle standard Schneid und Häckselwerke " />
+
+	    <text name="headerBearing_Ropa" text="SchneidwerkslagerRopa" />
+	    <text name="function_headerBearing_Ropa" text="Ein Lager für Schneidwerke der Firma Ropa.Eingelagert werden können die Schneidwerke RR 6x45, RR XXL 9x45" />
+
+		 <text name="stacker_open" text="Regalfach Ausfahren" />
+		<text name="stacker_close" text="Regalfach Einfahren" /> 
+
+		<text name="rack1_open" text="Regalfach 1 Ausfahren" />
+		<text name="rack1_close" text="Regalfach 1 Einfahren" />
+
+		<text name="rack2_open" text="Regalfach 2 Ausfahren" />
+		<text name="rack2_close" text="Regalfach 2 Einfahren" />
+
+		<text name="rack3_open" text="Regalfach 3 Ausfahren" />
+		<text name="rack3_close" text="Regalfach 3 Einfahren" />
+
+		<text name="rack4_open" text="Regalfach 4 Ausfahren" />
+		<text name="rack4_close" text="Regalfach 4 Einfahren" />
+
+		<text name="rack5_open" text="Regalfach 5 Ausfahren" />
+		<text name="rack5_close" text="Regalfach 5 Einfahren" />
+
+		<text name="NewHolland_cr980_830_stacker_open" text="Regalfach NewHolland Cr980_830 Ausfahren" />
+		<text name="NewHolland_cr980_830_stacker_close" text="Regalfach NewHolland Cr980_830 Einfahren" />
+		<text name="NewHolland_superFlex25_stacker_open" text="Regalfach NewHolland SuperFlex25 Ausfahren" />
+		<text name="NewHolland_superFlex25_stacker_close" text="Regalfach NewHolland SuperFlex25 Einfahren" />
+		<text name="NewHolland_varifeed28_stacker_open" text="Regalfach NewHolland Varifeed28 Ausfahren" />
+		<text name="NewHolland_varifeed28_stacker_close" text="Regalfach NewHolland Varifeed28 Einfahren" />
+		<text name="newHolland_plus375_plus360_stacker_open" text="Regalfach NewHolland Plus375 Plus360 Ausfahren" />
+		<text name="newHolland_plus375_plus360_stacker_close" text="Regalfach NewHolland Plus375 Plus360 Einfahren" />
+		<text name="newHolland_plus390_plus345_stacker_open" text="Regalfach NewHolland Plus390 Plus345 Ausfahren" />
+		<text name="newHolland_plus390_plus345_stacker_close" text="Regalfach NewHolland Plus390 Plus345 Einfahren" />
+
+		<text name="MasseyFerguson_powerFlow30FT_stacker_open" text="Regalfach MasseyFerguson PowerFlow30FT Ausfahren" />
+		<text name="MasseyFerguson_powerFlow30FT_stacker_close" text="Regalfach MasseyFerguson PowerFlow30FT Einfahren" />
+		<text name="MasseyFerguson_powerFlow_stacker_open" text="Regalfach MasseyFerguson PowerFlow Ausfahren" />
+		<text name="MasseyFerguson_powerFlow_stacker_close" text="Regalfach MasseyFerguson PowerFlow Einfahren" />
+		<text name="MasseyFerguson_dynaFlex9255_stacker_open" text="Regalfach MasseyFerguson DynaFlex9255 Ausfahren" />
+		<text name="MasseyFerguson_dynaFlex9255_stacker_close" text="Regalfach MasseyFerguson DynaFlex9255 Einfahren" />
+
+		<text name="JohnDeere_header608C_stacker_open" text="Regalfach JohnDeere Header608C Ausfahren" />
+		<text name="JohnDeere_header608C_stacker_close" text="Regalfach JohnDeere Header608C Einfahren" />
+		<text name="JohnDeere_header625X_stacker_open" text="Regalfach JohnDeere Header625X Ausfahren" />
+		<text name="JohnDeere_header625X_stacker_close" text="Regalfach JohnDeere Header625X Einfahren" />
+		<text name="JohnDeere_headerC16F_stacker_open" text="Regalfach JohnDeere HeaderC16F Ausfahren" />
+		<text name="JohnDeere_headerC16F_stacker_close" text="Regalfach JohnDeere HeaderC16F Einfahren" />
+		<text name="JohnDeere_headerHD45X_stacker_open" text="Regalfach JohnDeere HeaderHD45X Ausfahren" />
+		<text name="JohnDeere_headerHD45X_stacker_close" text="Regalfach JohnDeere HeaderHD45X Einfahren" />
+		<text name="JohnDeere_headerHD50F_stacker_open" text="Regalfach JohnDeere HeaderHD50F Ausfahren" />
+		<text name="JohnDeere_headerHD50F_stacker_close" text="Regalfach JohnDeere HeaderHD50F Einfahren" />
+
+		<text name="Fendt_powerFlow30FT_stacker_open" text="Regalfach Fendt PowerFlow30FT Ausfahren" />
+		<text name="Fendt_powerFlow30FT_stacker_close" text="Regalfach Fendt PowerFlow30FT Einfahren" />
+		<text name="Fendt_powerFlow_stacker_open" text="Regalfach Fendt PowerFlow Ausfahren" />
+		<text name="Fendt_powerFlow_stacker_close" text="Regalfach Fendt PowerFlow Einfahren" />
+		<text name="Fendt_dynaFlex9255_stacker_open" text="Regalfach Fendt DynaFlex9255 Ausfahren" />
+		<text name="Fendt_dynaFlex9255_stacker_close" text="Regalfach Fendt DynaFlex9255 Einfahren" />
+
+ 		<text name="Capello_spartan610_stacker_open" text="Regalfach Capello Spartan610 Ausfahren" />
+		<text name="Capello_spartan610_stacker_close" text="Regalfach Capello Spartan610 Einfahren" />
+		<text name="Capello_diamant8_stacker_open" text="Regalfach Capello Diamant8 Ausfahren" />
+		<text name="Capello_diamant8_stacker_close" text="Regalfach Capello Diamant8 Einfahren" />
+		<text name="Capello_diamant12_stacker_open" text="Regalfach Capello Diamant12 Ausfahren" />
+		<text name="Capello_diamant12_stacker_close" text="Regalfach Capello Diamant12 Einfahren" />
+		<text name="Capello_helianthus5700_stacker_open" text="Regalfach Capello Helianthus5700 Ausfahren" />
+		<text name="Capello_helianthus5700_stacker_close" text="Regalfach Capello Helianthus5700 Einfahren" />
+		<text name="Capello_helianthus12000_stacker_open" text="Regalfach Capello Helianthus12000 Ausfahren" />
+		<text name="Capello_helianthus12000_stacker_close" text="Regalfach Capello Helianthus12000 Einfahren" />       
+
+		<text name="Claas_DirectDisc500_stacker_open" text="Regalfach Claas DirectDisc500 Ausfahren" />
+		<text name="Claas_DirectDisc500_stacker_close" text="Regalfach Claas DirectDisc500 Einfahren" />
+		<text name="Claas_ConvioFlex1080_stacker_open" text="Regalfach Claas ConvioFlex1080 Ausfahren" />
+		<text name="Claas_ConvioFlex1080_stacker_close" text="Regalfach Claas ConvioFlex1080 Einfahren" />
+		<text name="Claas_ConvioFlex1380_stacker_open" text="Regalfach Claas ConvioFlex1380 Ausfahren" />
+		<text name="Claas_ConvioFlex1380_stacker_close" text="Regalfach Claas ConvioFlex1380 Einfahren" />
+		<text name="Claas_corio875FC_corio1275FC_stacker_open" text="Regalfach Claas Corio875FC Corio1275FC Ausfahren" />
+		<text name="Claas_corio875FC_corio1275FC_stacker_close" text="Regalfach Claas Corio875FC Corio1275FC Einfahren" />
+		<text name="Claas_Orbis750_Orbit900_stacker_open" text="Regalfach Claas Orbis750 Orbit900 Ausfahren" />
+		<text name="Claas_Orbis750_Orbit900_stacker_close" text="Regalfach Claas Orbis750 Orbit900 Einfahren" />
+
+		<text name="Case_terraFlex3020_stacker_open" text="Regalfach Case TerraFlex3020 Ausfahren" />
+		<text name="Case_terraFlex3020_stacker_close" text="Regalfach Case TerraFlex3020 Einfahren" />
+		<text name="Case_terraFlex3050_28_stacker_open" text="Regalfach Case TerraFlex3050 28 Ausfahren" />
+		<text name="Case_terraFlex3050_28_stacker_close" text="Regalfach Case TerraFlex3050 28 Einfahren" />
+		<text name="Case_terraFlex3050_41_stacker_open" text="Regalfach Case TerraFlex3050 41 Ausfahren" />
+		<text name="Case_terraFlex3050_41_stacker_close" text="Regalfach Case TerraFlex3050 41 Einfahren" />
+		<text name="Case_draper3162_stacker_open" text="Regalfach Case Draper3162 Ausfahren" />
+		<text name="Case_draper3162_stacker_close" text="Regalfach Case Draper3162 Einfahren" />
+		<text name="Case_header4408_header4418N_stacker_open" text="Regalfach Case Header4408 Header4418N Ausfahren" />
+		<text name="Case_header4408_header4418N_stacker_close" text="Regalfach Case Header4408 Header4418N Einfahren" />		
+	</texts>
+</l10n>

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="Schneidwerkslager" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>$l10n_headerBearing_Claas</name>
+        <functions>
+            <function>$l10n_function_headerBearing_Claas</function>
+        </functions>
+        <image>store/SchneidwerkslagerClaas.dds</image>
+        <price>45000</price>
+        <lifetime>1000</lifetime>
+        <dailyUpkeep>5</dailyUpkeep>
+        <rotation>0</rotation>
+        <brand>FACTORYMODS</brand>
+        <species>placeable</species>
+        <category>misc</category>
+        <brush>
+            <type>placeable</type>
+            <category>buildings</category>
+            <tab>tools</tab>
+        </brush>
+    </storeData>
+    
+    <base>
+        <filename>Placeable/SchneidwerkslagerClaas.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testAreas1Start" endNode="testAreas1End" />
+        </testAreas>
+
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearAreas1Start" widthNode="clearAreas1Width" heightNode="clearAreas1Height"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="1" maxSlope="60" maxEdgeAngle="60" >
+        <levelAreas>
+            <levelArea startNode="levelingAreas1Start" widthNode="levelingAreas1Width" heightNode="levelingAreas1Height" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+	
+     <indoorAreas>
+        <indoorArea startNode="indoorAreas1Start" widthNode="indoorAreas1Width" heightNode="indoorAreas1Height" />   
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateAreas1Start" endNode="tipOcclusionUpdateAreas1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateAreas1Start" endNode="tipOcclusionUpdateAreas1End" />
+        </updateAreas>
+    </ai>
+
+    <triggerMarkers>
+        <triggerMarker node="markerWrench" filename="$data/shared/assets/marker/markerIcons.xml" id="EXCLAMATION_MARK" adjustToGround="false"/>
+         <triggerMarker node="markerWrench1" filename="$data/shared/assets/marker/markerIcons.xml" id="EXCLAMATION_MARK" adjustToGround="false"/>        
+    </triggerMarkers> 
+
+    <animatedObjects>		
+        <animatedObject saveId="Ablage1_SaveId" >
+            <dependency animatedObjectIndex="2" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="3" minTime="0" maxTime="0" />
+             <dependency animatedObjectIndex="4" minTime="0" maxTime="0" />
+             <dependency animatedObjectIndex="5" minTime="0" maxTime="0" />                           
+            <animation duration="12">
+                <part node="1|0"> 
+                    <Keyframe time="0.0" translation="-5.247 12.4 0.7" rotation="0 0 0"/>
+                    <Keyframe time="0.25" translation="-5.247 12.4 -3.391" rotation="0 0 0"/>
+                    <Keyframe time="1.0" translation="-5.247 0.396 -3.391" rotation="0 0 0"/>
+                </part>             
+                <part node="5|4|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.15" visibility="false"/>                                      
+                </part>
+                <part node="5|4|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.85" visibility="true"/>                     
+                </part>                 
+                <part node="5|3|0|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.35" visibility="false"/>
+                </part>
+                <part node="5|3|0|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.24" visibility="true"/>
+                </part> 
+                <part node="5|3|0|2"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.42" visibility="true"/>
+                </part>
+                <part node="5|3|0|3"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.62" visibility="true"/>
+                </part>
+                <part node="5|3|0|4"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.82" visibility="true"/>
+                </part>
+                <part node="5|3|0|5"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+			    <part node="2|6|0|0">
+				     <keyFrame time="0.00" rotation="0 0 0"   visibility="false"/>
+					 <keyFrame time="0.05" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.05" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="0.10" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.10" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.70" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.70" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.95" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.95" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="1.00" rotation="0 360 0" visibility="false"/>					 
+				</part>	                
+			    <part node="2|6|0">
+				     <keyFrame time="0" rotation="0 0 0"  />        
+					 <keyFrame time="0.10" rotation="0 360 0"  /> 
+					 <keyFrame time="0.10" rotation="0 0 0"    />  
+					 <keyFrame time="0.20" rotation="0 360 0"  />   
+					 <keyFrame time="0.20" rotation="0 0 0" />      
+					 <keyFrame time="0.30" rotation="0 360 0"/>     
+					 <keyFrame time="0.30" rotation="0 0 0" />     
+					 <keyFrame time="0.40" rotation="0 360 0"/>   
+					 <keyFrame time="0.40" rotation="0 0 0" />      
+					 <keyFrame time="0.50" rotation="0 360 0"/>    
+					 <keyFrame time="0.50" rotation="0 0 0"/>      
+					 <keyFrame time="0.60" rotation="0 360 0" />  
+					 <keyFrame time="0.60" rotation="0 0 0"  />   
+					 <keyFrame time="0.70" rotation="0 360 0"/>    	
+					 <keyFrame time="0.70" rotation="0 0 0"   />  
+					 <keyFrame time="0.80" rotation="0 360 0" />  
+					 <keyFrame time="0.80" rotation="0 0 0"  />     
+					 <keyFrame time="0.90" rotation="0 360 0" />  
+					 <keyFrame time="0.90" rotation="0 0 0" />     
+					 <keyFrame time="1.00" rotation="0 360 0" />    					 
+				</part>                                                                                     
+            </animation>
+            <controls triggerNode="selectionTriggerClaas_DirectDisc500" posAction="ACTIVATE_HANDTOOL" posText="Claas_DirectDisc500_stacker_open" negText="Claas_DirectDisc500_stacker_close"  autoopen="false"/>
+            <sounds>
+                <moving file="$data/sounds/prefab/gate/lelyVectorLoop.ogg" loops="0" volume="110" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/reverse_beep/reverse_beep_03.ogg" loops="0" volume="90" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/switch/switch_01.ogg" loops="1" volume="150" radius="20" innerRadius="6" fadeOut="0.25"/> 
+            </sounds>
+        </animatedObject>
+        <animatedObject saveId="Ablage2_SaveId" >
+            <dependency animatedObjectIndex="1" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="3" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="4" minTime="0" maxTime="0" /> 
+             <dependency animatedObjectIndex="5" minTime="0" maxTime="0" />                          
+            <animation duration="12">
+                <part node="1|1"> 
+                    <Keyframe time="0.0" translation="-5.247 8.8 0.7" rotation="0 0 0"/>
+                    <Keyframe time="0.25" translation="-5.247 8.8 -3.42" rotation="0 0 0"/>
+                    <Keyframe time="1.0" translation="-5.247 0.396 -3.42" rotation="0 0 0"/>
+                </part>
+                 <part node="5|5|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.15" visibility="false"/> 
+                </part>
+                <part node="5|5|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.85" visibility="true"/>
+                </part>                
+                <part node="5|3|2|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.35" visibility="false"/>
+                </part>
+                <part node="5|3|2|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.24" visibility="true"/>
+                </part> 
+                <part node="5|3|2|2"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.42" visibility="true"/>
+                </part>
+                <part node="5|3|2|3"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.62" visibility="true"/>
+                </part>
+                <part node="5|3|2|4"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.82" visibility="true"/>
+                </part>
+                <part node="5|3|2|5"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+ 			    <part node="2|6|0|0">
+				     <keyFrame time="0.00" rotation="0 0 0"   visibility="false"/>
+					 <keyFrame time="0.05" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.05" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="0.10" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.10" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.70" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.70" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.95" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.95" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="1.00" rotation="0 360 0" visibility="false"/>					 
+				</part>	                
+			    <part node="2|6|0">
+				     <keyFrame time="0" rotation="0 0 0"  />        
+					 <keyFrame time="0.10" rotation="0 360 0"  /> 
+					 <keyFrame time="0.10" rotation="0 0 0"    />  
+					 <keyFrame time="0.20" rotation="0 360 0"  />   
+					 <keyFrame time="0.20" rotation="0 0 0" />      
+					 <keyFrame time="0.30" rotation="0 360 0"/>     
+					 <keyFrame time="0.30" rotation="0 0 0" />     
+					 <keyFrame time="0.40" rotation="0 360 0"/>   
+					 <keyFrame time="0.40" rotation="0 0 0" />      
+					 <keyFrame time="0.50" rotation="0 360 0"/>    
+					 <keyFrame time="0.50" rotation="0 0 0"/>      
+					 <keyFrame time="0.60" rotation="0 360 0" />  
+					 <keyFrame time="0.60" rotation="0 0 0"  />   
+					 <keyFrame time="0.70" rotation="0 360 0"/>    	
+					 <keyFrame time="0.70" rotation="0 0 0"   />  
+					 <keyFrame time="0.80" rotation="0 360 0" />  
+					 <keyFrame time="0.80" rotation="0 0 0"  />     
+					 <keyFrame time="0.90" rotation="0 360 0" />  
+					 <keyFrame time="0.90" rotation="0 0 0" />     
+					 <keyFrame time="1.00" rotation="0 360 0" />    					 
+				</part>                                   
+            </animation>
+            <controls triggerNode="selectionTriggerClaas_ConvioFlex1080" posAction="ACTIVATE_HANDTOOL" posText="Claas_ConvioFlex1080_stacker_open" negText="Claas_ConvioFlex1080_stacker_close"  autoopen="false"/>
+            <sounds>
+                <moving file="$data/sounds/prefab/gate/lelyVectorLoop.ogg" loops="0" volume="110" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/reverse_beep/reverse_beep_03.ogg" loops="0" volume="90" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/switch/switch_01.ogg" loops="1" volume="150" radius="20" innerRadius="6" fadeOut="0.25"/> 
+            </sounds>
+        </animatedObject>
+         <animatedObject saveId="Ablage3_SaveId" >
+            <dependency animatedObjectIndex="1" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="2" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="4" minTime="0" maxTime="0" />
+             <dependency animatedObjectIndex="5" minTime="0" maxTime="0" />                           
+            <animation duration="12">
+                <part node="1|2"> 
+                    <Keyframe time="0.0" translation="-5.247 5.663 0.7" rotation="0 0 0"/>
+                    <Keyframe time="0.25" translation="-5.247 5.663 -3.42" rotation="0 0 0"/>
+                    <Keyframe time="1.0" translation="-5.247 0.396 -3.42" rotation="0 0 0"/>
+                </part>
+                 <part node="5|6|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.15" visibility="false"/> 
+                </part>                
+                <part node="5|6|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.85" visibility="true"/>
+                </part>                
+                <part node="5|3|3|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.35" visibility="false"/>
+                </part>
+                <part node="5|3|3|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.24" visibility="true"/>
+                </part> 
+                <part node="5|3|3|2"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.42" visibility="true"/>
+                </part>
+                <part node="5|3|3|3"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.62" visibility="true"/>
+                </part>
+                <part node="5|3|3|4"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.82" visibility="true"/>
+                </part>
+                <part node="5|3|3|5"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+			    <part node="2|6|0|0">
+				     <keyFrame time="0.00" rotation="0 0 0"   visibility="false"/>
+					 <keyFrame time="0.05" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.05" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="0.10" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.10" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.70" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.70" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.95" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.95" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="1.00" rotation="0 360 0" visibility="false"/>					 
+				</part>	                
+			    <part node="2|6|0">
+				     <keyFrame time="0" rotation="0 0 0"  />        
+					 <keyFrame time="0.10" rotation="0 360 0"  /> 
+					 <keyFrame time="0.10" rotation="0 0 0"    />  
+					 <keyFrame time="0.20" rotation="0 360 0"  />   
+					 <keyFrame time="0.20" rotation="0 0 0" />      
+					 <keyFrame time="0.30" rotation="0 360 0"/>     
+					 <keyFrame time="0.30" rotation="0 0 0" />     
+					 <keyFrame time="0.40" rotation="0 360 0"/>   
+					 <keyFrame time="0.40" rotation="0 0 0" />      
+					 <keyFrame time="0.50" rotation="0 360 0"/>    
+					 <keyFrame time="0.50" rotation="0 0 0"/>      
+					 <keyFrame time="0.60" rotation="0 360 0" />  
+					 <keyFrame time="0.60" rotation="0 0 0"  />   
+					 <keyFrame time="0.70" rotation="0 360 0"/>    	
+					 <keyFrame time="0.70" rotation="0 0 0"   />  
+					 <keyFrame time="0.80" rotation="0 360 0" />  
+					 <keyFrame time="0.80" rotation="0 0 0"  />     
+					 <keyFrame time="0.90" rotation="0 360 0" />  
+					 <keyFrame time="0.90" rotation="0 0 0" />     
+					 <keyFrame time="1.00" rotation="0 360 0" />    					 
+				</part>                                  
+            </animation>
+            <controls triggerNode="selectionTriggerClaas_ConvioFlex1380" posAction="ACTIVATE_HANDTOOL" posText="Claas_ConvioFlex1380_stacker_open" negText="Claas_ConvioFlex1380_stacker_close"  autoopen="false"/>
+            <sounds>
+                <moving file="$data/sounds/prefab/gate/lelyVectorLoop.ogg" loops="0" volume="110" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/reverse_beep/reverse_beep_03.ogg" loops="0" volume="90" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/switch/switch_01.ogg" loops="1" volume="150" radius="20" innerRadius="6" fadeOut="0.25"/> 
+            </sounds>
+        </animatedObject> 
+          <animatedObject saveId="Ablage4_SaveId" >
+            <dependency animatedObjectIndex="1" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="2" minTime="0" maxTime="0" />
+             <dependency animatedObjectIndex="3" minTime="0" maxTime="0" /> 
+             <dependency animatedObjectIndex="5" minTime="0" maxTime="0" />                          
+            <animation duration="12">
+                <part node="1|3"> 
+                    <Keyframe time="0.0" translation="-4.959 3.1 0.62" rotation="0 0 0"/>
+                    <Keyframe time="0.25" translation="-4.959 3.1 -3.454" rotation="0 0 0"/>
+                    <Keyframe time="1.0" translation="-4.959 0.444 -3.454" rotation="0 0 0"/>
+                </part>
+                  <part node="6|3|3|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.15" visibility="false"/> 
+                </part>                
+                <part node="6|3|3|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.85" visibility="true"/>
+                </part>                
+                <part node="6|3|1|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.35" visibility="false"/>
+                </part>
+                <part node="6|3|1|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.24" visibility="true"/>
+                </part> 
+                <part node="6|3|1|2"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.42" visibility="true"/>
+                </part>
+                <part node="6|3|1|3"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.62" visibility="true"/>
+                </part>
+                <part node="6|3|1|4"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.82" visibility="true"/>
+                </part>
+                <part node="6|3|1|5"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+			    <part node="2|7|0|0">
+				     <keyFrame time="0.00" rotation="0 0 0"   visibility="false"/>
+					 <keyFrame time="0.05" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.05" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="0.10" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.10" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.70" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.70" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.95" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.95" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="1.00" rotation="0 360 0" visibility="false"/>					 
+				</part>	                
+			    <part node="2|7|0">
+				     <keyFrame time="0" rotation="0 0 0"  />        
+					 <keyFrame time="0.10" rotation="0 360 0"  /> 
+					 <keyFrame time="0.10" rotation="0 0 0"    />  
+					 <keyFrame time="0.20" rotation="0 360 0"  />   
+					 <keyFrame time="0.20" rotation="0 0 0" />      
+					 <keyFrame time="0.30" rotation="0 360 0"/>     
+					 <keyFrame time="0.30" rotation="0 0 0" />     
+					 <keyFrame time="0.40" rotation="0 360 0"/>   
+					 <keyFrame time="0.40" rotation="0 0 0" />      
+					 <keyFrame time="0.50" rotation="0 360 0"/>    
+					 <keyFrame time="0.50" rotation="0 0 0"/>      
+					 <keyFrame time="0.60" rotation="0 360 0" />  
+					 <keyFrame time="0.60" rotation="0 0 0"  />   
+					 <keyFrame time="0.70" rotation="0 360 0"/>    	
+					 <keyFrame time="0.70" rotation="0 0 0"   />  
+					 <keyFrame time="0.80" rotation="0 360 0" />  
+					 <keyFrame time="0.80" rotation="0 0 0"  />     
+					 <keyFrame time="0.90" rotation="0 360 0" />  
+					 <keyFrame time="0.90" rotation="0 0 0" />     
+					 <keyFrame time="1.00" rotation="0 360 0" />    					 
+				</part>	                                  
+            </animation>
+            <controls triggerNode="selectionTrigger3" posAction="ACTIVATE_HANDTOOL" posText="Claas_corio875FC_corio1275FC_stacker_open" negText="Claas_corio875FC_corio1275FC_stacker_close"  autoopen="false"/>
+            <sounds>
+                <moving file="$data/sounds/prefab/gate/lelyVectorLoop.ogg" loops="0" volume="110" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/reverse_beep/reverse_beep_03.ogg" loops="0" volume="90" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/switch/switch_01.ogg" loops="1" volume="150" radius="20" innerRadius="6" fadeOut="0.25"/> 
+            </sounds>
+        </animatedObject> 
+          <animatedObject saveId="Ablage5_SaveId" >
+            <dependency animatedObjectIndex="1" minTime="0" maxTime="0" />
+            <dependency animatedObjectIndex="2" minTime="0" maxTime="0" />
+             <dependency animatedObjectIndex="3" minTime="0" maxTime="0" /> 
+              <dependency animatedObjectIndex="4" minTime="0" maxTime="0" />                        
+            <animation duration="12">
+                 <part node="1|4">            
+                    <Keyframe time="0.0" translation="-5.244 0.48 0.55" rotation="0 0 0"/>
+                    <Keyframe time="1.0" translation="-5.244 0.48 -3.592" rotation="0 0 0"/>
+                </part>
+                  <part node="6|3|4|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.15" visibility="false"/> 
+                </part>                
+                <part node="6|3|4|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.85" visibility="true"/>
+                </part>                
+                <part node="6|3|2|0"> 
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="0.35" visibility="false"/>
+                </part>
+                <part node="6|3|2|1"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.24" visibility="true"/>
+                </part> 
+                <part node="6|3|2|2"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.42" visibility="true"/>
+                </part>
+                <part node="6|3|2|3"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.62" visibility="true"/>
+                </part>
+                <part node="6|3|2|4"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="0.82" visibility="true"/>
+                </part>
+                <part node="6|3|2|5"> 
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+			    <part node="2|7|0|0">
+				     <keyFrame time="0.00" rotation="0 0 0"   visibility="false"/>
+					 <keyFrame time="0.05" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.05" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="0.10" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.10" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.20" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.30" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.40" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.50" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.60" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.70" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.70" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.80" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 360 0" visibility="true"/>
+					 <keyFrame time="0.90" rotation="0 0 0"   visibility="true"/>
+					 <keyFrame time="0.95" rotation="0 360 0" visibility="true"/>	
+					 <keyFrame time="0.95" rotation="0 0 0"   visibility="true"/>					 
+					 <keyFrame time="1.00" rotation="0 360 0" visibility="false"/>					 
+				</part>	                
+			    <part node="2|7|0">
+				     <keyFrame time="0" rotation="0 0 0"  />        
+					 <keyFrame time="0.10" rotation="0 360 0"  /> 
+					 <keyFrame time="0.10" rotation="0 0 0"    />  
+					 <keyFrame time="0.20" rotation="0 360 0"  />   
+					 <keyFrame time="0.20" rotation="0 0 0" />      
+					 <keyFrame time="0.30" rotation="0 360 0"/>     
+					 <keyFrame time="0.30" rotation="0 0 0" />     
+					 <keyFrame time="0.40" rotation="0 360 0"/>   
+					 <keyFrame time="0.40" rotation="0 0 0" />      
+					 <keyFrame time="0.50" rotation="0 360 0"/>    
+					 <keyFrame time="0.50" rotation="0 0 0"/>      
+					 <keyFrame time="0.60" rotation="0 360 0" />  
+					 <keyFrame time="0.60" rotation="0 0 0"  />   
+					 <keyFrame time="0.70" rotation="0 360 0"/>    	
+					 <keyFrame time="0.70" rotation="0 0 0"   />  
+					 <keyFrame time="0.80" rotation="0 360 0" />  
+					 <keyFrame time="0.80" rotation="0 0 0"  />     
+					 <keyFrame time="0.90" rotation="0 360 0" />  
+					 <keyFrame time="0.90" rotation="0 0 0" />     
+					 <keyFrame time="1.00" rotation="0 360 0" />    					 
+				</part>	                   
+            </animation>
+            <controls triggerNode="selectionTrigger4" posAction="ACTIVATE_HANDTOOL" posText="Claas_Orbis750_Orbit900_stacker_open" negText="Claas_Orbis750_Orbit900_stacker_close"  autoopen="false"/>
+            <sounds>
+                <moving file="$data/sounds/prefab/gate/lelyVectorLoop.ogg" loops="0" volume="110" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/reverse_beep/reverse_beep_03.ogg" loops="0" volume="90" radius="20" innerRadius="6" fadeOut="0.25"/>
+                <moving file="$data/sounds/vehicles/switch/switch_01.ogg" loops="1" volume="150" radius="20" innerRadius="6" fadeOut="0.25"/> 
+            </sounds>
+        </animatedObject>           
+        <animatedObject saveId="5|1" >
+           <animation duration="3.0">
+                <part node="5|1|0">
+                    <keyFrame time="0.0" rotation="0 0 0"/>
+                    <keyFrame time="0.5" rotation="0 -129 0"/>
+                </part>
+                <part node="5|1|1">
+                    <keyFrame time="0.5" rotation="0 0 0"/>
+                    <keyFrame time="1.0" rotation="0 137 0"/>
+                </part>                                                                                                       
+            </animation>
+            <controls triggerNode="5|1|2" posAction="ACTIVATE_HANDTOOL" posText="action_openPanel" negText="action_closePanel" />
+        </animatedObject>
+        <animatedObject saveId="6|1" >
+           <animation duration="3.0">
+                <part node="6|1|0">
+                    <keyFrame time="0.0" rotation="0 180 0"/>
+                    <keyFrame time="0.5" rotation="0 29 0"/>
+                </part>
+                <part node="6|1|1">
+                    <keyFrame time="0.5" rotation="0 -180 0"/>
+                    <keyFrame time="1.0" rotation="0 -37 0"/>
+                </part>                                                                                                       
+            </animation>
+            <controls triggerNode="6|1|2" posAction="ACTIVATE_HANDTOOL" posText="action_openPanel" negText="action_closePanel" />
+        </animatedObject>      
+    </animatedObjects>
+
+    <dynamicMountAttacherPlacables>
+        <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher" rootNode="1|0|0|1" jointNode="1|0|0|1">
+            <lockPosition xmlFilename="directDisc500" jointNode="Lock"/>
+        </dynamicMountAttacherPlacable>
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher1" rootNode="1|1|0|1" jointNode="1|1|0|1">
+            <lockPosition xmlFilename="convioFlex1080" jointNode="Lock1"/>
+        </dynamicMountAttacherPlacable>  
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher2" rootNode="1|2|0|1" jointNode="1|2|0|1">
+            <lockPosition xmlFilename="convioFlex1380" jointNode="Lock2"/>
+        </dynamicMountAttacherPlacable>
+
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher3" rootNode="1|3|0|1" jointNode="1|3|0|1">
+            <lockPosition xmlFilename="corio875FC" jointNode="Lock3"/>
+        </dynamicMountAttacherPlacable> 
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher5" rootNode="1|3|0|4" jointNode="1|3|0|4">
+            <lockPosition xmlFilename="corio1275C" jointNode="Lock5"/>
+        </dynamicMountAttacherPlacable>
+
+
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher4" rootNode="1|4|0|1" jointNode="1|3|0|1">
+            <lockPosition xmlFilename="orbis750" jointNode="Lock4"/>
+        </dynamicMountAttacherPlacable>        
+         <dynamicMountAttacherPlacable triggerNode="dynamicMountAttacher6" rootNode="1|4|0|4" jointNode="1|4|0|4">
+            <lockPosition xmlFilename="orbis900" jointNode="Lock6"/>
+        </dynamicMountAttacherPlacable>                                                    
+    </dynamicMountAttacherPlacables>
+    
+    <infoTrigger triggerNode="infoTrigger" />
+
+    <lights>
+        <group weatherRequiredFlags="NIGHT" />
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="lightNode" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="lightNode1" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="lightNode2" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/terraLed/fluorescentTube50W.xml" linkNode="lightNode3" groupIndex="1"/>
+        <sharedLight filename="$data/shared/assets/lights/lizard/buildings/industrialWallLight.xml" linkNode="lightNode4" groupIndex="1"/>                  
+        <realLights>
+            <low>
+                <light node="realLightsLow" groupIndex="1"/> 
+            </low>
+            <high>
+                <light node="realLightsHigh" groupIndex="1"/>
+            </high>
+        </realLights>
+    </lights> 
+    
+<i3dMappings>
+  <i3dMapping id="JohnDeere_Schneidwerkslager" node="0>" />
+
+  <i3dMapping id="Ablage1" node="0>1|0" />
+  <i3dMapping id="Ablage2" node="0>1|1" />
+  <i3dMapping id="Ablage3" node="0>1|2" />
+  <i3dMapping id="Ablage4" node="0>1|3" />
+  <i3dMapping id="Ablage5" node="0>1|4" />
+
+  <i3dMapping id="dynamicMountAttacher" node="0>1|0|0|1" />
+  <i3dMapping id="dynamicMountAttacher1" node="0>1|1|0|1" />
+  <i3dMapping id="dynamicMountAttacher2" node="0>1|2|0|1" />
+  <i3dMapping id="dynamicMountAttacher3" node="0>1|3|0|1" />
+  <i3dMapping id="dynamicMountAttacher4" node="0>1|4|0|1" />
+  <i3dMapping id="dynamicMountAttacher5" node="0>1|3|0|4" />
+  <i3dMapping id="dynamicMountAttacher6" node="0>1|4|0|4" />
+
+  <i3dMapping id="Lock" node="0>1|0|0|2" />
+  <i3dMapping id="Lock1" node="0>1|1|0|2" />
+  <i3dMapping id="Lock2" node="0>1|2|0|2" /> 
+  <i3dMapping id="Lock3" node="0>1|3|0|2" />
+  <i3dMapping id="Lock4" node="0>1|4|0|2" />
+  <i3dMapping id="Lock5" node="0>1|3|0|3" /> 
+  <i3dMapping id="Lock6" node="0>1|4|0|3" />
+
+  <i3dMapping id="clearAreas1Start" node="0>3|0|0" />
+  <i3dMapping id="clearAreas1Width" node="0>3|0|0|0" />
+  <i3dMapping id="clearAreas1Height" node="0>3|0|0|1" />
+
+  <i3dMapping id="levelingAreas1Start" node="0>3|1|0" />
+  <i3dMapping id="levelingAreas1Width" node="0>3|1|0|0" />
+  <i3dMapping id="levelingAreas1Height" node="0>3|1|0|1" />
+
+  <i3dMapping id="testAreas1Start" node="0>3|2|0" />
+  <i3dMapping id="testAreas1End" node="0>3|2|0|0" />
+
+  <i3dMapping id="tipOcclusionUpdateAreas1Start" node="0>3|3|0" />
+  <i3dMapping id="tipOcclusionUpdateAreas1End" node="0>3|3|0|0" />
+
+    <i3dMapping id="indoorAreas1Start" node="0>3|4|0" />
+  <i3dMapping id="indoorAreas1Width" node="0>3|4|0|0" />
+  <i3dMapping id="indoorAreas1Height" node="0>3|4|0|1" />
+
+  <i3dMapping id="playerTrigger" node="0>4" />
+  <i3dMapping id="infoTrigger" node="0>4|0" />
+  <i3dMapping id="selectionTriggerClaas_DirectDisc500" node="0>4|1" />
+  <i3dMapping id="selectionTriggerClaas_ConvioFlex1080" node="0>4|2" />
+  <i3dMapping id="selectionTriggerClaas_ConvioFlex1380" node="0>4|3" />
+  <i3dMapping id="selectionTrigger3" node="0>4|4" /> 
+  <i3dMapping id="selectionTrigger4" node="0>4|5" /> 
+
+  <i3dMapping id="lightNode" node="0>2|0" /> 
+  <i3dMapping id="lightNode1" node="0>2|1" /> 
+  <i3dMapping id="lightNode2" node="0>2|2" />
+  <i3dMapping id="lightNode3" node="0>2|3" /> 
+  <i3dMapping id="lightNode4" node="0>2|5" /> 
+
+  <i3dMapping id="realLightsLow" node="2|4|0" />
+  <i3dMapping id="realLightsHigh" node="2|4|1" />  
+
+  <i3dMapping id="ControlPanel" node="0>5" />
+  <i3dMapping id="Panel" node="0>5|0" />
+  <i3dMapping id="door" node="0>5|1" />
+  <i3dMapping id="doorLeft_0" node="0>5|1|0" />
+  <i3dMapping id="doorLeft_1" node="0>5|1|0|0" />
+  <i3dMapping id="doorRight_0" node="0>5|1|1" />
+  <i3dMapping id="doorRight_1" node="0>5|1|1|0" />
+  <i3dMapping id="doorTrigger" node="0>5|1|2" />
+<!-- Control Panel -->
+  <i3dMapping id="ControlPanel" node="0>5" />
+  <i3dMapping id="Panel" node="0>5|0" />
+  <i3dMapping id="door" node="0>5|1" />
+  <i3dMapping id="doorLeft_0" node="0>5|1|0" />
+  <i3dMapping id="doorLeft_1" node="0>5|1|0|0" />
+  <i3dMapping id="doorRight_0" node="0>5|1|1" />
+  <i3dMapping id="doorRight_1" node="0>5|1|1|0" />
+  <i3dMapping id="doorTrigger" node="0>5|1|2" />
+<!-- light Display  -->
+  <i3dMapping id="lightRed" node="0>5|3|0|0" />
+  <i3dMapping id="lightRed1" node="0>5|3|0|1" />
+  <i3dMapping id="lightYellow" node="0>5|3|0|2" />
+  <i3dMapping id="lightYellow1" node="0>5|3|0|3" />
+  <i3dMapping id="lightGreen" node="0>5|3|0|4" />
+  <i3dMapping id="lightGreen1" node="0>5|3|0|5" />
+<!-- light Display  --> 
+  <i3dMapping id="lightRed" node="0>5|3|2|0" />
+  <i3dMapping id="lightRed1" node="0>5|3|2|1" />
+  <i3dMapping id="lightYellow" node="0>5|3|2|2" />
+  <i3dMapping id="lightYellow1" node="0>5|3|2|3" />
+  <i3dMapping id="lightGreen" node="0>5|3|2|4" />
+  <i3dMapping id="lightGreen1" node="0>5|3|2|5" />
+<!-- light Display  --> 
+  <i3dMapping id="lightRed" node="0>5|3|3|0" />
+  <i3dMapping id="lightRed1" node="0>5|3|3|1" />
+  <i3dMapping id="lightYellow" node="0>5|3|3|2" />
+  <i3dMapping id="lightYellow1" node="0>5|3|3|3" />
+  <i3dMapping id="lightGreen" node="0>5|3|3|4" />
+  <i3dMapping id="lightGreen1" node="0>5|3|3|5" /> 
+<!-- light Display  --> 
+  <i3dMapping id="lightRed" node="0>6|3|1|0" />
+  <i3dMapping id="lightRed1" node="0>6|3|1|1" />
+  <i3dMapping id="lightYellow" node="0>6|3|1|2" />
+  <i3dMapping id="lightYellow1" node="0>6|3|1|3" />
+  <i3dMapping id="lightGreen" node="0>6|3|1|4" />
+  <i3dMapping id="lightGreen1" node="0>6|3|1|5" /> 
+<!-- light Display  --> 
+  <i3dMapping id="lightRed" node="0>6|3|2|0" />
+  <i3dMapping id="lightRed1" node="0>6|3|2|1" />
+  <i3dMapping id="lightYellow" node="0>6|3|2|2" />
+  <i3dMapping id="lightYellow1" node="0>6|3|2|3" />
+  <i3dMapping id="lightGreen" node="0>6|3|2|4" />
+  <i3dMapping id="lightGreen1" node="0>6|3|1|5" />         
+<!-- Ein/Aus schalter  -->  
+  <i3dMapping id="lightRed" node="0>5|4|1" />
+  <i3dMapping id="lightGreen" node="0>5|4|0" />
+<!-- Ein/Aus schalter  -->  
+  <i3dMapping id="lightRed" node="0>5|5|1" />
+  <i3dMapping id="lightGreen" node="0>5|5|0" />
+
+  <i3dMapping id="markerWrench" node="5|1|3" />  
+  <i3dMapping id="markerWrench1" node="6|1|3" /> 
+
+   <i3dMapping id="beaconLight" node="0>2|6|0|0" />
+  <i3dMapping id="beaconLight1" node="0>2|7|0|0" />          
+</i3dMappings>
+</placeable>

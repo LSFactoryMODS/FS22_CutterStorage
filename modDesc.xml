@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="72">
+    <author>Bjoern_AkA_FactoryMODS</author>
+    <!--author for script Achimobil  -->
+    <version>1.1.0.0</version>
+    <title>
+        <de>Schneidwerkslager</de>
+        <en>Cutter Storage</en>
+    </title>
+    <description>
+        <de>
+<![CDATA[In diesem Schneidwerklager Pack sind 7 verschiedene Lagerstätten für Schneid und Häckselwerke enthalten.
+Was ist in diesem Pack enthalte:
+
+Schneidwerkslager Capello
+Preis: 45000€
+Unterhalt: 15€ pro Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke Spartan610, Diamant8, Diamant12, Helianthus5700 und das Helianthus12000 einzulagern.
+Links und Rechts  vom Regal befindet sich das Control Panel von dem man aus das Regal bedienen kann. Es gibt verschiedene Trigger punkte vor Dem Control Panel wie zb. das öffnen des Panels erlaubt und auch die dazu gehörigen Trigger zum ein und ausfahren der 5 Regal Fächer.
+
+Schneidwerkslager Case
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke TerraFlex 3020, TerraFlex 3050_28, TerraFlex 3050_41, Draper 3162, Header 4408 und das Header 4418N einzulagern.
+
+Schneidwerkslager Claas
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke DirectDisc500, ConvioFlex 1080, ConvioFlex 1380, Corio875FC, Corio1275C, Orbis750   und das Orbis900  einzulagern.
+
+Schneidwerkslager Fendt
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke Powerflow,Powerflow30FT und das Dynaflex9255  einzulagern.
+
+Schneidwerkslager JohnDeere
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke Header608C, Header625X, HeaderC16F, HeaderHD45xund das  HeaderHD50F einzulagern.
+
+Schneidwerkslager Massey Ferguson
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke Powerflow,Powerflow30FT und das Dynaflex9255  einzulagern.
+
+Schneidwerkslager NewHolland
+Preis:45000€
+Unterhalt: 15€ am Tag
+
+Funktion:
+Mittels der 5 Regalfächer ist es möglich die Schneidwerke CR980_830, SuperFlex25, Varifeed28, NewHolland_plus390, NewHolland_plus375, NewHolland_plus360 und das NewHolland_plus345  einzulagern.
+
+Eine dokumentation wie man zb neue Mod schneidwerke einträgt findet ihr unter folgenem link<a href="https://docs.google.com/document/d/1ZrDR78pBvVvy0Z1YpQVe3PIIOdfJAYv7No5Hs7bwNOc/edit">Documentation:</a>]]>
+
+        </de>
+        <en>
+            <![CDATA[In this cutter bearings pack are included 7 different bearings for cutter and shredder.
+What is included in this pack:
+
+Capello cutterbar bearing
+Price: 45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 shelves it is possible to store the cutting units Spartan610, Diamant8, Diamant12, Helianthus5700 and the Helianthus12000.
+To the left and right of the shelf is the control panel from which the shelf can be operated. There are several triggers in front of the control panel that allow the opening of the panel and the corresponding triggers to move the 5 shelves in and out.
+
+Cutter Case
+Price:45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 shelf compartments it is possible to store the cutterbars TerraFlex 3020, TerraFlex 3050_28, TerraFlex 3050_41, Draper 3162, Header 4408 and the Header 4418N.
+
+Cutterbar bearing Claas
+Price:45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 racks it is possible to store the cutterbars DirectDisc500, ConvioFlex 1080, ConvioFlex 1380, Corio875FC, Corio1275C, Orbis750 and the Orbis900.
+
+Cutterbar bearing Fendt
+Price:45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 shelves it is possible to store the cutterbars Powerflow,Powerflow30FT and the Dynaflex9255.
+
+Cutterbar storage JohnDeere
+Price:45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 shelves it is possible to store the cutterbars Header608C, Header625X, HeaderC16F, HeaderHD45xand the HeaderHD50F.
+
+Cutterbar storage Massey Ferguson
+Price:45000€
+Maintenance: 15€ a day
+
+Function:
+By means of the 5 racks it is possible to store the cutterbars Powerflow,Powerflow30FT and the Dynaflex9255.
+
+Cutterbar storage NewHolland
+Price:45000€
+Maintenance: 15€ per day
+
+Function:
+By means of the 5 shelves it is possible to store the cutting units CR980_830, SuperFlex25, Varifeed28, NewHolland_plus390, NewHolland_plus375, NewHolland_plus360 and the NewHolland_plus345.
+
+
+You can find a documentation how to add e.g. new mod cutting units under the following link <a href="https://docs.google.com/document/d/1ZrDR78pBvVvy0Z1YpQVe3PIIOdfJAYv7No5Hs7bwNOc/edit">Documentation:</a>]]>
+        </en>
+    </description>
+    <multiplayer supported="true"/>
+    <iconFilename>icon_Schneidwerkslager.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="Xml/SchneidwerkslagerFendt.xml"/>     
+        <storeItem xmlFilename="Xml/SchneidwerkslagerCapello.xml"/>
+        <storeItem xmlFilename="Xml/SchneidwerkslagerMasseyFerguson.xml"/> 
+        <storeItem xmlFilename="Xml/SchneidwerkslagerJohnDeere.xml"/>
+        <storeItem xmlFilename="Xml/SchneidwerkslagerNewHolland.xml"/>
+        <storeItem xmlFilename="Xml/SchneidwerkslagerClaas.xml"/>
+        <storeItem xmlFilename="Xml/SchneidwerkslagerCase.xml"/>
+        <storeItem xmlFilename="Xml/UniversellesSchneidwerkslager.xml"/> 
+        <storeItem xmlFilename="Xml/SchneidwerkslagerRopa.xml"/>                                                        
+    </storeItems>
+    <brands>
+        <brand name="FACTORYMODS" title="FactoryMODS" image="brand.dds"/>
+    </brands>	
+
+    <placeableSpecializations>
+        <specialization name="dynamicMountAttacher" className="DynamicMountAttacherPlacable" filename="scripts/DynamicMountAttacher.lua"/>
+    </placeableSpecializations>
+    
+    <placeableTypes>
+        <type name="Schneidwerkslager" parent="simplePlaceable" filename="$dataS/scripts/placeables/Placeable.lua">
+            <specialization name="dynamicMountAttacher" />
+            <specialization name="infoTrigger" />
+        </type>
+    </placeableTypes>
+  	<l10n filenamePrefix="Xml/translation"/>  
+</modDesc>
